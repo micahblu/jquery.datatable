@@ -56,7 +56,7 @@
 			var rownum = 1;
 			
 			if(settings.headers){
-				table += "\t<tr class=\"\">\n";
+				table += "\t<tr class=\"header-row\">\n";
 				
 				if(settings.rownumbers){
 					table += "\t\t<th></th>\n";
